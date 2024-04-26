@@ -17,7 +17,7 @@ This dataset contains 999 RGB images and 999 joint variable stored in a txt file
 ## Dataset Details
 
 Dataset Specifications
-- **Size**: 999
+- **Size**: 43.2 MB
 - **Format**: images are stored as jpeg and the labels are stored in a text file.
 - **Source**: https://drive.google.com/file/d/1cS0kaeGU7AD2bTIyMSXwhqMtkYZi-ATi/view?usp=drive_link
 - **Preprocessing**: No preprocessing required. 
