@@ -63,6 +63,7 @@ The block diagram of the entire data collecting setup is as follows:
 <p align="center">
 <img src="./results/setup.png", width = "400" >
 </p>
+
 ## Citation
 
 I will be grateful if you cite my work in case you use this repository. 
