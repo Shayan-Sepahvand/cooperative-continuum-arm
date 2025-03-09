@@ -13,38 +13,16 @@
 
 
 
-## Table of Contents
+<!-- ## Table of Contents
 The goal of this project is to solve the inverse kinematics of the supportive continuum arm presented in https://www.computerrobotvision.org/, in Guelph, Ontario, Canada in May 28th.
 1. [Introduction](#introduction)
 2. [Dataset Details](#dataset-details)
 3. [Usage](#usage)
 4. [Contributing](#contributing)
-5. [License](#license)
+5. [License](#license) -->
 
 ## Introduction
 
-This dataset contains 999 RGB images and 999 joint variable stored in a txt file. The images are names from 1 to 999, and the lables in the text file are ordered the same. For example, lable #1 corresponds to image 1.jpg.
+In this work, a deep learning-based technique is used to study the image-to-joint inverse kinematics of a tendon-driven supportive continuum arm. An eye-off-hand configuration is considered by mounting a camera at a fixed pose with respect to the inertial frame attached at the arm base. This camera captures an image for each distinct joint variable at each sampling time to construct the training dataset. This repository contains the implementation of the conference paper  <a href="https://doi.org/10.21428/d82e957c.d8706a7c"> Image-to-Joint Inverse Kinematic of a Supportive Continuum Arm Using Deep Learning </a> published in <a href="https://www.computerrobotvision.org/2024/"> Canadian Conference on Robot and Vision (CRV2024) </a>.
 
-## Dataset Details
-
-Dataset Specifications
-- **Size**: 43.2 MB
-- **Format**: images are stored as jpeg and the labels are stored in a text file.
-- **Source**: https://drive.google.com/file/d/1cS0kaeGU7AD2bTIyMSXwhqMtkYZi-ATi/view?usp=drive_link
-- **Preprocessing**: No preprocessing required. 
-
-## Usage
-
-[Explain how to use your dataset. Provide examples of how to load and analyze it using popular data processing libraries or tools.]
-
-### Example:
-
-```python
-import pandas as pd
-
-# Load the dataset
-data = pd.read_csv('dataset.csv')
-
-# Display the first few rows
-print(data.head())
-
+## Real-world Setup
