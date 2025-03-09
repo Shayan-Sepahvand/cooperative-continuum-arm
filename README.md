@@ -45,13 +45,13 @@ To ease the implementation of different learning models and kinematic models, th
 As illustrated below, the SCCR comprises the operative (the arm on the left) and supportive arms (the arm on the right). Each arm consists of several elements: additional spacer disks for transmitting motor tensions to the tip flexible spring steel backbone, spacer disks made with PLA filament to guide the tendons, and four braided Kevlar lines serving as tendons. These tendons align along a circle with a radius of $18.55$ (mm), running parallel to the backbone. The manipulation of the tendons is done using Dynamixel servomotors AX-12A (Robotis, Lakeforest CA). 
 
 <p align="center">
-<img src="./results/CCR_Demo_Short.gif", width = "200" >
+<img src="./results/CCR_Demo_Short.gif", width = "400" >
 </p>
 
 The block diagram of the entire data collecting setup is as follows:
 
 <p align="center">
-<img src="./results/setup.png", width = "400" >
+<img src="./results/setup.png", width = "1000" >
 </p>
 
 ## Citation
