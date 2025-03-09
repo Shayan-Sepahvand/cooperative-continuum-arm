@@ -1,9 +1,20 @@
-# Image-to-shape supportive continuum arm dataset
+# Image-to-joint inverse kinematics estimation of a cooperative continuum arm
 
-The goal of this project is to solve the inverse kinematics of the supportive continuum arm presented in https://www.computerrobotvision.org/, in Guelph, Ontario, Canada in May 28th.
+<p align = 'left'>
+    <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.8-ff69b4.svg" />
+    <a href= "https://www.tensorflow.org">
+    <img src="https://img.shields.io/badge/Tensorflow-2.13.1-2BAF2B.svg" /></a>
+    <a href="https://developer.nvidia.com/cuda-toolkit">
+    <img src="https://img.shields.io/badge/CUDA-11.8-76B900.svg" /></a>
+</p>
+
+
+
+
 
 ## Table of Contents
-
+The goal of this project is to solve the inverse kinematics of the supportive continuum arm presented in https://www.computerrobotvision.org/, in Guelph, Ontario, Canada in May 28th.
 1. [Introduction](#introduction)
 2. [Dataset Details](#dataset-details)
 3. [Usage](#usage)
