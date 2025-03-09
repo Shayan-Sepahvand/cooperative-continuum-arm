@@ -23,6 +23,9 @@ The goal of this project is to solve the inverse kinematics of the supportive co
 
 ## Introduction
 
-In this work, a deep learning-based technique is used to study the image-to-joint inverse kinematics of a tendon-driven supportive continuum arm. An eye-off-hand configuration is considered by mounting a camera at a fixed pose with respect to the inertial frame attached at the arm base. This camera captures an image for each distinct joint variable at each sampling time to construct the training dataset. This repository contains the implementation of the conference paper  <a href="https://doi.org/10.21428/d82e957c.d8706a7c"> Image-to-Joint Inverse Kinematic of a Supportive Continuum Arm Using Deep Learning </a> published in <a href="https://www.computerrobotvision.org/2024/"> Canadian Conference on Robot and Vision (CRV2024) </a>.
+In this work, a deep learning-based technique is used to study the image-to-joint inverse kinematics of a tendon-driven supportive continuum arm. An eye-off-hand configuration is considered by mounting a camera at a fixed pose with respect to the inertial frame attached at the arm base. This camera captures an image for each distinct joint variable at each sampling time to construct the training dataset. This repository contains the implementation of the conference paper  <a href="https://doi.org/10.21428/d82e957c.d8706a7c"> **Image-to-Joint Inverse Kinematic of a Supportive Continuum Arm Using Deep Learning** </a> published in <a href="https://www.computerrobotvision.org/2024/"> Canadian Conference on Robot and Vision (CRV2024) </a>.
 
 ## Real-world Setup
+<p align="center">
+<img src="./results/CCR_Demo_Short.gif">
+</p>
