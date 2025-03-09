@@ -61,7 +61,7 @@ To ease the implementation of different learning models and kinematic models, th
 
 ## Citation
 
-I will be grateful if you cite my work if you use this repository. 
+I will be grateful if you cite my work in case you use this repository. 
 
 ```python
 
