@@ -33,8 +33,8 @@ The project layout can be described as follows:
     ├── Scripts              # All Jupyter Notebook Files
     |
     ├── Dataset                 # Contains the images collected and the lables
-    |   ├── imgs
-    |   ├── lables
+    |   ├── imgs                # 999 RGB images collected
+    |   ├── lables              # The joint variable
     |
     ├── Results                 # Result Directory
     
