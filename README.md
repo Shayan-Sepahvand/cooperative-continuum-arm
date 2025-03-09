@@ -27,7 +27,7 @@ In this work, a deep learning-based technique is used to study the image-to-join
 
 ## Project Layout 
 
-To ease the implementation of different learning models and kinematic models, the project is structured in the following manner - 
+The project layout can be described as follows:
 
 ```
     ├── Scripts              # All Jupyter Notebook Files
