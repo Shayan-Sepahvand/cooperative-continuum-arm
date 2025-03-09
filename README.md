@@ -27,5 +27,51 @@ In this work, a deep learning-based technique is used to study the image-to-join
 
 ## Real-world Setup
 <p align="center">
-<img src="./results/CCR_Demo_Short.gif">
+<img src="./results/CCR_Demo_Short.gif", width = "200" >
 </p>
+
+<!-- ## Project Layout 
+
+To ease the implementation of different learning models and kinematic models, the project is structured in the following manner - 
+
+```
+    .
+    ├── Scripts              # All Jupyter Notebook Files
+    │   ├── INN                 # Inverible Neural Networks
+    │   |── RBF                 # Radial Basis Functions
+    │   ├── MLP                 # Multi-Layer Perceptron
+    │   ├── ELM                 # Extreme Learning Machine
+    │   └── Cascade_Correlatin  # Cascade Correlation
+    |
+    ├── Dataset                 # Contain the workspace generated using different models as a pkl file
+    |
+    ├── Models                  # Kinematic Robot Models
+    │   ├── PCC                 # Piecewise Constant Curvature Model
+    │   └── Static              # Static Model based on cosserat rod theory and string theory
+    |
+    ├── Results                 # Result Directory
+    │   ├── Training            # All the learning models are stored as sav file
+    │   ├── Trajectory          # Stores the trajectory output from learning models
+    │   └── Workspace           # Snipet of workspace generated using Kinematic Models
+    |
+    ├── main.py.                # Main program to train different learning models
+    └── trajectory.py           # Test the trained model on different trajectories
+    
+``` -->
+
+## Citation
+
+I will be grateful if you cite my work if you use this repository. 
+
+```python
+
+
+@article{Sepahvand2024Image,
+	author = {Sepahvand, Shayan and Wang, Guanghui and Janabi-Sharifi, Farrokh},
+	journal = {Proceedings of the Conference on Robots and Vision},
+	year = {2024},
+	month = {may 28},
+	note = {https://crv.pubpub.org/pub/60urxy9p},
+	publisher = {},
+	title = {Image-to-{Joint} {Inverse} {Kinematic} of a {Supportive} {Continuum} {Arm} {Using} {Deep} {Learning}},
+}
