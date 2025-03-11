@@ -62,7 +62,9 @@ The following figure shows the images captured using a monocular camera and the 
 
 ## Learning Curves
 
-
+<p align="center">
+<img src="./results/Learning_Curves.png", width = "400" >
+</p>
 
 ## Citation
 
