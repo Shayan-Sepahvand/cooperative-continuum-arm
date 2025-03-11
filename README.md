@@ -57,7 +57,7 @@ The block diagram of the entire data collecting setup is as follows:
 The following figure shows the images captured using a monocular camera and the corresponding joint angles.
 
 <p align="center">
-<img src="./results/dataset_images.png", width = "1000" >
+<img src="./results/dataset_images.png", width = "400" >
 </p>
 
 
